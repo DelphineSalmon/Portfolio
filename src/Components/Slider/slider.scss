@@ -1,0 +1,49 @@
+@import '../../Scss/utils/mixin';
+.containerslider {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+
+    .pictureslider {
+        height: 500px;
+        width: 100%;
+        border-radius: 40px;
+        object-fit: cover;
+        @include media-max(1024px) {
+            width: 90%;
+            height: 400px;
+        }
+    }
+
+    .left {
+        color: rgb(190, 128, 112);
+        height: 50px;
+        height: 80px;
+        @include media-max(1024px) {
+            height: 45px;
+            height: 75px;
+        }
+    }
+
+    .right {
+        color: rgb(190, 128, 112);
+        height: 50px;
+        height: 80px;
+        @include media-max(1024px) {
+            height: 45px;
+            height: 75px;
+        }
+    }
+}
+.containerchevron {
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 215px;
+    width: 65%;
+    @include media-max(1024px) {
+        margin-top: 175px;
+        width: 85%;
+    }
+}

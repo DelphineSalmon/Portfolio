@@ -1,0 +1,50 @@
+.errorpage {
+    background-color: #f7f4ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleerror {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150px;
+    color: #6a676780;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 90px;
+}
+.messageerror {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #6a6767;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.chaterror {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #6a6767;
+    font-size: 20px;
+    margin-bottom: 100px;
+    width: 50%;
+}
+.vivi {
+    width: 50%;
+    border-radius: 50px;
+    margin-bottom: 100px;
+}
+.linkaccueil {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(190, 128, 112);
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 100px;
+}
+.linkaccueil:hover {
+    color: rgb(190, 128, 112);
+    background-color: rgb(255, 255, 255);
+}

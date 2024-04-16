@@ -1,0 +1,42 @@
+@import '../../Scss/utils/mixin';
+
+.contact {
+    background-color: #f7f4ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.title {
+    font-family: 'Montserrat', sans-serif;
+    color: #6a676780;
+    font-size: 50px;
+}
+.decocontact {
+    width: 24%;
+    border: 2px solid #d1a6a7;
+}
+
+.contactme {
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #6a6767;
+    font-size: 20px;
+    @include media-max(1024px) {
+        font-size: 18px;
+        width: 70%;
+        text-align: center;
+    }
+}
+.linkcontact {
+    display: flex;
+    gap: 30px;
+}
+.linkmail {
+    color: rgb(190, 128, 112);
+}
+
+.linkmail:hover {
+    color: #d1a6a7;
+}

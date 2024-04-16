@@ -1,0 +1,107 @@
+[
+	{
+		"id": "1",
+		"title": "Booki",
+		"cover": "https://image.noelshack.com/fichiers/2024/15/1/1712584368-booki.png",
+		"pictures": "http://www.image-heberg.fr/files/17131680632573588462.png",
+		"description": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
+        "scenario":"Vous débutez votre alternance en tant que développeur web au sein de la start-up Booki. L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS. Pour cela, vous travaillez en étroite collaboration avec Sarah, la CTO, et Loïc, l’UI design",
+		"challenge":"Responsive: Utilisation des media query pour gerer les différentes tailles d'écrans",
+
+		"tags": [
+			"Html",
+			"Css","Responsive Design"
+		],
+        "link":"https://delphinesalmon.github.io/Booki/",
+		"git":"https://github.com/DelphineSalmon/Booki"
+	},
+    {
+		"id": "2",
+		"title": "Sophie Bluel",
+		"cover": "http://www.image-heberg.fr/files/17125850112360946130.png",
+		"pictures":"http://www.image-heberg.fr/files/1713168226984421922.png",
+		"description": "Créez une page web dynamique avec JavaScript",
+        "scenario":"Vous travaillez comme développeur front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé votre dernier projet avec un peu d'avance, vous êtes envoyé en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.",
+		"challenge":"Les appels API: utilisation de fetch, pour les appels asychrone ",
+
+		"tags": [
+			"Javascript","Swagger"
+			
+		],
+        "link":"",
+		"git":"https://github.com/DelphineSalmon/Portfolio-architecte-sophie-bluel",
+		"trello":""
+	},
+    {
+		"id": "3",
+		"title": "Qwenta",
+		"cover": "https://image.noelshack.com/fichiers/2024/15/1/1712584422-qwenta.png",
+		"pictures":"http://www.image-heberg.fr/files/1713168587344219142.png",
+		"description": "Planifiez le développement du site de votre client",
+        "scenario":"Vous êtes développeur front-end au sein de l’agence Webgencia.Votre client Qwenta souhaite faire développer un “Menu Maker” : un site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement, en quelques clics. Soufiane, le Product Owner du projet est en congé maladie. Il vous a chargé, exceptionnellement, de préparer et planifier ce projet. Il prendra le relai pour présenter votre travail au client.",
+		"challenge":"Mise en place des Sprint: utilisation d'un Kanban et découpage des tâches",
+
+		"tags": [
+			"Gestion de Projet","Veille Technologique","Méthode Agile"
+			
+		],
+        "link":"https://drive.google.com/drive/folders/1cFtLZGbgjfh_x_GVrGkxUT0UJoFq8bIJ?usp=sharing",
+		"git":"",
+		"trello":"https://trello.com/b/4QROYnbY/menu-maker-by-qwenta"
+	},
+    {
+		"id": "4",
+		"title": "Nina Carducci",
+		"cover": "http://www.image-heberg.fr/files/17125848042194096475.png",
+		"pictures": "http://www.image-heberg.fr/files/1713168676941847025.png",
+		"description": "Débuggez et optimisez un site de photographe",
+        "scenario":"Vous êtes développeur freelance et vous décidez de proposer vos services d’optimisation SEO à de nouveaux clients. Parmi vos prospects, il y a le site de Nina Carducci, une photographe dont vous a parlé l’un de vos amis.",
+		"challenge":"Compression des images: utilisation du format.webp pour l'optimisation des images",
+
+		"tags": [
+			"SEO",
+            "Accesibilité","Wave"
+			
+		],
+        "link":"https://delphinesalmon.github.io/nina-carducci.github.io/",
+		"git":"https://github.com/DelphineSalmon/nina-carducci.github.io",
+		"trello":""
+	},
+    {
+		"id": "5",
+		"title": "Kasa",
+		"cover": "http://www.image-heberg.fr/files/17131945084236846155.png",
+		"pictures": "http://www.image-heberg.fr/files/17131691442910834602.png",
+		"description": "Créez une application web de location immobilière avec React",
+        "scenario":"Vous êtes développeur front-end en freelance pour Kasa, une entreprise de location d’appartements entre particuliers.Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.L'occasion parfaite pour vous d'ajouter une belle référence à votre portfolio de freelance !",
+		"challenge":"Les hooks: utilisation de useState, useParam - Intégration de Sass",
+
+		"tags": [
+			"React",
+            "Sass"
+			
+		],
+        "link":"",
+		"git":"https://github.com/DelphineSalmon/Kasa",
+		"trello":""
+	},
+    {
+		"id": "6",
+		"title": "Mon vieux Grimoire",
+		"cover": "http://www.image-heberg.fr/files/17125851123717090893.png",
+		"pictures": "http://www.image-heberg.fr/files/17131691142345420875.png",
+		"description": "Développez le back-end d'un site de notation de livres",
+        "scenario":"Vous êtes développeur back-end en freelance depuis maintenant un an dans la région de Lille.Vous avez l’habitude de travailler avec Kévin, un développeur front-end plus expérimenté que vous, et qui a déjà un bon réseau de contacts dans le milieu. Kévin vous contacte pour vous proposer de travailler avec lui en mutualisant vos compétences front / back sur un tout nouveau projet qui lui a été proposé.Il s’agit d’une petite chaîne de librairies qui souhaite ouvrir un site de référencement et de notation de livres : Mon Vieux Grimoire.",
+		"challenge":"les codes HTTP: bien choisir les codes appropriés en fonction des réponses ",
+
+		"tags": [
+			"Express JS",
+            "Mongoose","Postman"
+			
+		],
+        "link":"",
+		"git":"https://github.com/DelphineSalmon/Mon_vieux_grimoire",
+		"trello":""
+	}
+
+]

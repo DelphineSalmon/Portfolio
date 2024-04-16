@@ -1,0 +1,100 @@
+@import '../../Scss/utils/mixin';
+.about {
+    background-color: #f7f4ef;
+    width: 100%;
+}
+.imgpresentation {
+    display: flex;
+}
+.profil {
+    width: 25%;
+    border-radius: 50%;
+    padding-left: 100px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    @include media-max(1024px) {
+        padding-top: 50px;
+        padding-left: 50px;
+        margin-left: 10px;
+        height: 400px;
+        width: 400px;
+    }
+}
+
+.title_presentation {
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 35px;
+    @include media-max(1024px) {
+        padding-left: 80px;
+    }
+}
+.title {
+    font-family: 'Montserrat', sans-serif;
+}
+.deco {
+    width: 24%;
+    border: 2px solid #d1a6a7;
+    @include media-max(1024px) {
+        width: 60%;
+    }
+}
+.presentation {
+    font-family: 'Montserrat', sans-serif;
+    color: #6a6767;
+    width: 50%;
+    margin-bottom: 25px;
+    line-height: 150%;
+    @include media-max(1024px) {
+        width: 80%;
+    }
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.linkcv {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(190, 128, 112);
+    border-radius: 20px;
+    margin-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.linkcv:hover {
+    background-color: #ede7df;
+    color: rgb(190, 128, 112);
+}
+.linkgithub {
+    color: rgb(190, 128, 112);
+}
+.linkgithub:hover {
+    color: #d1a6a7;
+}
+.linklinkedin {
+    color: rgb(190, 128, 112);
+}
+.linklinkedin:hover {
+    color: #d1a6a7;
+}
+.signature {
+    margin-top: 20px;
+    width: 10%;
+    @include media-max(1024px) {
+        width: 20%;
+        padding-bottom: 35px;
+    }
+}
+.competences {
+    width: 100%;
+    background-color: #ede7df;
+}

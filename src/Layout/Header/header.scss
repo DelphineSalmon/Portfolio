@@ -1,0 +1,32 @@
+@import '../../Scss/utils/mixin';
+.navbar {
+    background-color: #ede7df;
+    display: flex;
+    justify-content: center;
+    @include media-max(1024px) {
+        height: 85px;
+    }
+    @include media-max(425px) {
+        width: 100%;
+    }
+}
+.navlogo {
+    width: 25%;
+    padding-left: 50px;
+    padding-right: 5%;
+}
+
+.navbar_link {
+    font-family: 'Montserrat', sans-serif;
+    color: #d1a6a7;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+}
+.navbar_link:hover {
+    color: black;
+}
