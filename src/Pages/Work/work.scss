@@ -3,6 +3,9 @@
 .project {
     background-color: #f7f4ef;
     height: 800px;
+    @include media-max(425px) {
+        height: 1300px;
+    }
 }
 
 .titleproject {
@@ -13,6 +16,15 @@
     margin-top: 0px;
     padding-top: 30px;
     margin-bottom: 30px;
+    @include media-max(425px) {
+        text-align: center;
+    }
+}
+.deco-projet {
+    @include media-max(425px) {
+        margin-left: 100px;
+        width: 50%;
+    }
 }
 
 .img-work {
@@ -28,12 +40,23 @@
         width: 40%;
         height: 300px;
     }
+    @include media-max(425px) {
+        width: 90%;
+        height: 250px;
+        margin-left: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 }
 .containerwork {
     display: flex;
     font-family: 'Montserrat', sans-serif;
     color: #6a6767;
     font-size: 15px;
+    @include media-max(425px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 .containerdescription {
     padding-top: 50px;
@@ -43,6 +66,12 @@
         padding-top: 35px;
         padding-left: 30px;
         width: 50%;
+    }
+    @include media-max(425px) {
+        width: 85%;
+        margin-left: 10px;
+        padding-left: 10px;
+        padding-top: 0px;
     }
 }
 .techno {
@@ -59,7 +88,8 @@
     grid-template-rows: auto auto;
     grid-auto-flow: column;
     gap: 5px 30px;
-    @include media-max(1024px) {
+    @include media-max(425px) {
+        padding-bottom: 40px;
     }
 }
 .tagsvalue {
@@ -130,6 +160,10 @@
     @include media-max(1024px) {
         padding-left: 160px;
     }
+    @include media-max(425px) {
+        padding-left: 100px;
+        padding-bottom: 40px;
+    }
 }
 .projetlink:hover {
     color: #6a6767;
@@ -137,6 +171,9 @@
 .trellolink {
     color: #d1a6a7;
     padding-left: 40px;
+    @include media-max(425px) {
+        padding-left: 0px;
+    }
 }
 .trellolink:hover {
     color: #6a6767;

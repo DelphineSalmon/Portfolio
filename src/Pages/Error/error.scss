@@ -1,3 +1,4 @@
+@import '../../Scss/utils/mixin';
 .errorpage {
     background-color: #f7f4ef;
     display: flex;
@@ -14,6 +15,9 @@
     padding-top: 30px;
     margin-bottom: 30px;
     padding-top: 90px;
+    @include media-max(425px) {
+        font-size: 80px;
+    }
 }
 .messageerror {
     font-family: 'Montserrat', sans-serif;
@@ -21,6 +25,9 @@
     color: #6a6767;
     font-size: 30px;
     margin-bottom: 50px;
+    @include media-max(425px) {
+        font-size: 20px;
+    }
 }
 .chaterror {
     font-family: 'Montserrat', sans-serif;
@@ -29,6 +36,9 @@
     font-size: 20px;
     margin-bottom: 100px;
     width: 50%;
+    @include media-max(425px) {
+        font-size: 18px;
+    }
 }
 .vivi {
     width: 50%;

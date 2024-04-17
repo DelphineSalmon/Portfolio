@@ -7,13 +7,19 @@
         height: 85px;
     }
     @include media-max(425px) {
-        width: 100%;
     }
 }
 .navlogo {
     width: 25%;
     padding-left: 50px;
     padding-right: 5%;
+    @include media-max(425px) {
+        width: 30%;
+        height: 60px;
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 .navbar_link {
@@ -26,6 +32,11 @@
     padding-right: 30px;
     display: flex;
     align-items: center;
+    @include media-max(425px) {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+    }
 }
 .navbar_link:hover {
     color: black;

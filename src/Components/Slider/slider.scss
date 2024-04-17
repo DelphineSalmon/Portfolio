@@ -13,25 +13,37 @@
             width: 90%;
             height: 400px;
         }
+        @include media-max(425px) {
+            width: 98%;
+            height: 190px;
+        }
     }
 
     .left {
         color: rgb(190, 128, 112);
-        height: 50px;
+        width: 50px;
         height: 80px;
         @include media-max(1024px) {
-            height: 45px;
+            width: 45px;
             height: 75px;
+        }
+        @include media-max(425px) {
+            height: 30px;
+            width: 30px;
         }
     }
 
     .right {
         color: rgb(190, 128, 112);
-        height: 50px;
+        width: 50px;
         height: 80px;
         @include media-max(1024px) {
-            height: 45px;
+            width: 45px;
             height: 75px;
+        }
+        @include media-max(425px) {
+            height: 30px;
+            width: 30px;
         }
     }
 }
@@ -45,5 +57,9 @@
     @include media-max(1024px) {
         margin-top: 175px;
         width: 85%;
+    }
+    @include media-max(425px) {
+        margin-top: 85px;
+        width: 95%;
     }
 }

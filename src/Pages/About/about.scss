@@ -5,6 +5,10 @@
 }
 .imgpresentation {
     display: flex;
+    @include media-max(425px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 .profil {
     width: 25%;
@@ -20,6 +24,10 @@
         height: 400px;
         width: 400px;
     }
+    @include media-max(425px) {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
 }
 
 .title_presentation {
@@ -31,9 +39,16 @@
     @include media-max(1024px) {
         padding-left: 80px;
     }
+    @include media-max(425px) {
+        margin-top: 10px;
+        padding-left: 50px;
+    }
 }
 .title {
     font-family: 'Montserrat', sans-serif;
+    @include media-max(425px) {
+        margin-top: 10px;
+    }
 }
 .deco {
     width: 24%;
