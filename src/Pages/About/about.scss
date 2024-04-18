@@ -1,6 +1,7 @@
 @import '../../Scss/utils/mixin';
+@import '../../Scss/utils/variable.scss';
 .about {
-    background-color: #f7f4ef;
+    background-color: $color-beige-clair;
     width: 100%;
 }
 .imgpresentation {
@@ -45,21 +46,21 @@
     }
 }
 .title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $police;
     @include media-max(425px) {
         margin-top: 10px;
     }
 }
 .deco {
     width: 24%;
-    border: 2px solid #d1a6a7;
+    border: 2px solid $rose;
     @include media-max(1024px) {
         width: 60%;
     }
 }
 .presentation {
-    font-family: 'Montserrat', sans-serif;
-    color: #6a6767;
+    font-family: $police;
+    color: gris-clair;
     width: 50%;
     margin-bottom: 25px;
     line-height: 150%;
@@ -74,8 +75,8 @@
     gap: 20px;
 }
 .linkcv {
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(255, 255, 255);
+    font-family: $police;
+    color: $blanc;
     text-decoration: none;
     background-color: rgb(190, 128, 112);
     border-radius: 20px;
@@ -86,20 +87,20 @@
     padding-right: 30px;
 }
 .linkcv:hover {
-    background-color: #ede7df;
+    background-color: $color-beige;
     color: rgb(190, 128, 112);
 }
 .linkgithub {
     color: rgb(190, 128, 112);
 }
 .linkgithub:hover {
-    color: #d1a6a7;
+    color: $rose;
 }
 .linklinkedin {
     color: rgb(190, 128, 112);
 }
 .linklinkedin:hover {
-    color: #d1a6a7;
+    color: $rose;
 }
 .signature {
     margin-top: 20px;
@@ -111,5 +112,5 @@
 }
 .competences {
     width: 100%;
-    background-color: #ede7df;
+    background-color: $color-beige;
 }

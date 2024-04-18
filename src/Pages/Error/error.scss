@@ -1,15 +1,16 @@
 @import '../../Scss/utils/mixin';
+@import '../../Scss/utils/variable.scss';
 .errorpage {
-    background-color: #f7f4ef;
+    background-color: $color-beige-clair;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .titleerror {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $police;
     font-size: 150px;
-    color: #6a676780;
+    color: $title-color;
     text-align: center;
     margin-top: 0px;
     padding-top: 30px;
@@ -20,9 +21,9 @@
     }
 }
 .messageerror {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $police;
     text-align: center;
-    color: #6a6767;
+    color: $gris-clair;
     font-size: 30px;
     margin-bottom: 50px;
     @include media-max(425px) {
@@ -30,9 +31,9 @@
     }
 }
 .chaterror {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $police;
     text-align: center;
-    color: #6a6767;
+    color: $gris-clair;
     font-size: 20px;
     margin-bottom: 100px;
     width: 50%;
@@ -46,8 +47,8 @@
     margin-bottom: 100px;
 }
 .linkaccueil {
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(255, 255, 255);
+    font-family: $police;
+    color: $blanc;
     background-color: rgb(190, 128, 112);
     border-radius: 20px;
     text-decoration: none;
@@ -56,5 +57,5 @@
 }
 .linkaccueil:hover {
     color: rgb(190, 128, 112);
-    background-color: rgb(255, 255, 255);
+    background-color: $blanc;
 }

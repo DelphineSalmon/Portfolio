@@ -1,7 +1,8 @@
 @import '../../Scss/utils/mixin';
+@import '../../Scss/utils/variable.scss';
 
 .project {
-    background-color: #f7f4ef;
+    background-color: $color-beige-clair;
     height: 800px;
     @include media-max(425px) {
         height: 1300px;
@@ -9,9 +10,9 @@
 }
 
 .titleproject {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $police;
     font-size: 50px;
-    color: #6a676780;
+    color: $title-color;
     text-align: center;
     margin-top: 0px;
     padding-top: 30px;
@@ -50,8 +51,8 @@
 }
 .containerwork {
     display: flex;
-    font-family: 'Montserrat', sans-serif;
-    color: #6a6767;
+    font-family: $police;
+    color: $gris-clair;
     font-size: 15px;
     @include media-max(425px) {
         display: flex;
@@ -81,8 +82,8 @@
     align-items: center;
 }
 .tags {
-    font-family: 'Montserrat', sans-serif;
-    color: #6a6767;
+    font-family: $police;
+    color: $gris-clair;
     font-size: 18px;
     display: grid;
     grid-template-rows: auto auto;
@@ -93,8 +94,8 @@
     }
 }
 .tagsvalue {
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(255, 255, 255);
+    font-family: $police;
+    color: $blanc;
     background-color: rgb(190, 128, 112);
     border-radius: 20px;
     width: 100%;
@@ -131,8 +132,8 @@
 }
 .worklink {
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    color: #d1a6a7;
+    font-family: $police;
+    color: $rose;
     font-size: 20px;
     padding-right: 30px;
     @include media-max(1024px) {
@@ -142,19 +143,19 @@
 }
 
 .worklink:hover {
-    color: #6a6767;
+    color: $gris-clair;
 }
 .linkgit {
-    color: #d1a6a7;
+    color: $rose;
     padding-left: 40px;
 }
 .linkgit:hover {
-    color: #6a6767;
+    color: $gris-clair;
 }
 .projetlink {
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    color: #d1a6a7;
+    font-family: $police;
+    color: $rose;
     font-size: 20px;
     padding-left: 470px;
     @include media-max(1024px) {
@@ -166,15 +167,15 @@
     }
 }
 .projetlink:hover {
-    color: #6a6767;
+    color: $gris-clair;
 }
 .trellolink {
-    color: #d1a6a7;
+    color: $rose;
     padding-left: 40px;
     @include media-max(425px) {
         padding-left: 0px;
     }
 }
 .trellolink:hover {
-    color: #6a6767;
+    color: $gris-clair;
 }

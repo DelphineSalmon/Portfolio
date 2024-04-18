@@ -1,5 +1,7 @@
+@import '../../Scss/utils/variable';
+
 .footer {
-    background-color: #fdfcfa;
+    background-color: $blanc;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -11,7 +13,7 @@
 }
 
 .copyright {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $police;
     font-size: 10px;
     margin-bottom: 0;
     display: flex;

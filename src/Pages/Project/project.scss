@@ -1,13 +1,14 @@
 @import '../../Scss/utils/mixin';
+@import '../../Scss/utils/variable.scss';
 
 .projet {
-    background-color: #f7f4ef;
+    background-color: $color-beige-clair;
     padding-bottom: 80px;
 }
 .title-projet {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $police;
     font-size: 50px;
-    color: #6a676780;
+    color: $title-color;
     text-align: center;
     margin-top: 0px;
     padding-top: 30px;
@@ -15,7 +16,7 @@
 }
 .deco-projet {
     width: 10%;
-    border: 2px solid #d1a6a7;
+    border: 2px solid $rose;
     margin-left: 850px;
     @include media-max(1024px) {
         margin-left: 400px;
@@ -25,8 +26,8 @@
 .description-projet {
     margin-top: 30px;
     margin-bottom: 30px;
-    color: #6a6767;
-    font-family: 'Montserrat', sans-serif;
+    color: $gris-clair;
+    font-family: $police;
     text-align: center;
     font-size: 20px;
     @include media-max(425px) {
@@ -36,7 +37,7 @@
     }
 }
 .containercards {
-    background-color: #ede7df;
+    background-color: $color-beige;
     border-radius: 40px;
     width: 75%;
     display: flex;

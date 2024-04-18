@@ -1,6 +1,7 @@
 @import '../../Scss/utils/mixin';
+@import '../../Scss/utils/variable.scss';
 .navbar {
-    background-color: #ede7df;
+    background-color: $color-beige;
     display: flex;
     justify-content: center;
     @include media-max(1024px) {
@@ -23,8 +24,8 @@
 }
 
 .navbar_link {
-    font-family: 'Montserrat', sans-serif;
-    color: #d1a6a7;
+    font-family: $police;
+    color: $rose;
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;

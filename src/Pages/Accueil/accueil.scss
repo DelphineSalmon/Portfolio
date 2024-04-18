@@ -1,8 +1,9 @@
 @import '../../Scss/utils/mixin';
+@import '../../Scss/utils/variable.scss';
 
 .title-accueil {
-    font-family: 'Montserrat', sans-serif;
-    color: #6a676780;
+    font-family: $police;
+    color: $title-color;
     margin-top: 0px;
     padding-top: 300px;
     font-size: 100px;
@@ -16,8 +17,8 @@
     }
 }
 .title-présentation {
-    font-family: 'Montserrat', sans-serif;
-    color: #6a676780;
+    font-family: $police;
+    color: $title-color;
     margin-top: 0px;
     padding-top: 10px;
     font-size: 50px;
