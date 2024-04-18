@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.894b5d59.css",
-    "main.js": "/react-gh-pages/static/js/main.27483199.js",
-    "static/media/vivi.jpg": "/react-gh-pages/static/media/vivi.ceebe0477a000adc1dd3.jpg",
-    "static/media/profil.png": "/react-gh-pages/static/media/profil.8f91d6fa507bd8215d15.png",
-    "static/media/logo.png": "/react-gh-pages/static/media/logo.11616681dd6c1608dec3.png",
-    "static/media/signature.png": "/react-gh-pages/static/media/signature.8df27a713632617e9f5c.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.894b5d59.css.map": "/react-gh-pages/static/css/main.894b5d59.css.map",
-    "main.27483199.js.map": "/react-gh-pages/static/js/main.27483199.js.map"
+    "main.css": "/Portfolio/static/css/main.894b5d59.css",
+    "main.js": "/Portfolio/static/js/main.988f272d.js",
+    "static/media/vivi.jpg": "/Portfolio/static/media/vivi.ceebe0477a000adc1dd3.jpg",
+    "static/media/profil.png": "/Portfolio/static/media/profil.8f91d6fa507bd8215d15.png",
+    "static/media/logo.png": "/Portfolio/static/media/logo.11616681dd6c1608dec3.png",
+    "static/media/signature.png": "/Portfolio/static/media/signature.8df27a713632617e9f5c.png",
+    "index.html": "/Portfolio/index.html",
+    "main.894b5d59.css.map": "/Portfolio/static/css/main.894b5d59.css.map",
+    "main.988f272d.js.map": "/Portfolio/static/js/main.988f272d.js.map"
   },
   "entrypoints": [
     "static/css/main.894b5d59.css",
-    "static/js/main.27483199.js"
+    "static/js/main.988f272d.js"
   ]
 }
