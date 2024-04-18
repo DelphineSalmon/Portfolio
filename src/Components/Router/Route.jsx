@@ -7,7 +7,7 @@ import Footer from '../../Layout/Footer/Footer'
 import Project from '../../Pages/Project/Project'
 import Work from '../../Pages/Work/Work'
 import Error from '../../Pages/Error/Error'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 
 function MyRouter() {
     return (
