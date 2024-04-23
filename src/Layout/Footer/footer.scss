@@ -1,4 +1,5 @@
 @import '../../Scss/utils/variable';
+@import '../../Scss/utils/mixin';
 
 .footer {
     background-color: $blanc;
@@ -6,6 +7,9 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    @include media-max(425px) {
+        overflow-x: hidden;
+    }
 }
 .footerlogo {
     padding-top: 20px;

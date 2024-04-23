@@ -6,6 +6,7 @@
     height: 800px;
     @include media-max(425px) {
         height: 1300px;
+        overflow-x: hidden;
     }
 }
 

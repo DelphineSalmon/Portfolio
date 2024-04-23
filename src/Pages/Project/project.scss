@@ -4,6 +4,9 @@
 .projet {
     background-color: $color-beige-clair;
     padding-bottom: 80px;
+    @include media-max(425px) {
+        overflow-x: hidden;
+    }
 }
 .title-projet {
     font-family: $police;

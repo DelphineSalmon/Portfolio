@@ -3,6 +3,9 @@
 .about {
     background-color: $color-beige-clair;
     width: 100%;
+    @include media-max(425px) {
+        overflow-x: hidden;
+    }
 }
 .imgpresentation {
     display: flex;
@@ -26,8 +29,11 @@
         width: 400px;
     }
     @include media-max(425px) {
+        height: 350px;
+        width: 350px;
         padding-left: 0px;
-        margin-left: 0px;
+        margin-left: 10px;
+        margin-bottom: 25px;
     }
 }
 
@@ -42,7 +48,7 @@
     }
     @include media-max(425px) {
         margin-top: 10px;
-        padding-left: 50px;
+        padding-left: 45px;
     }
 }
 .title {

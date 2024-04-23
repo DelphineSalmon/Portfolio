@@ -5,6 +5,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    @include media-max(425px) {
+        overflow-x: hidden;
+    }
 }
 
 .titleerror {

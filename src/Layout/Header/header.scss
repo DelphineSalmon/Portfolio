@@ -8,6 +8,7 @@
         height: 85px;
     }
     @include media-max(425px) {
+        overflow-x: hidden;
     }
 }
 .navlogo {
