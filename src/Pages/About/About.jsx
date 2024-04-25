@@ -29,7 +29,7 @@ function Abouts() {
                     <div className="link">
                         <Link
                             className="linkcv"
-                            to="https://drive.google.com/drive/folders/1GIU41hygz41KkokHxJMY0K6_7_kdA1F1?usp=sharing"
+                            to="https://drive.google.com/file/d/1Xgv1v6-zeWLbyT3YCRcxKFYNtDeQnMd3/view?usp=sharing"
                             target="_blank"
                         >
                             Mon CV
