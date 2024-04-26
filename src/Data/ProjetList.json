@@ -2,7 +2,7 @@
 	{
 		"id": "1",
 		"title": "Booki",
-		"cover": "https://image.noelshack.com/fichiers/2024/15/1/1712584368-booki.png",
+		"cover": "http://www.image-heberg.fr/files/17141379843548665535.png",
 		"pictures": "http://www.image-heberg.fr/files/17131680632573588462.png",
 		"description": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
         "scenario":"Vous débutez votre alternance en tant que développeur web au sein de la start-up Booki. L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS. Pour cela, vous travaillez en étroite collaboration avec Sarah, la CTO, et Loïc, l’UI design",
@@ -35,7 +35,7 @@
     {
 		"id": "3",
 		"title": "Qwenta",
-		"cover": "https://image.noelshack.com/fichiers/2024/15/1/1712584422-qwenta.png",
+		"cover": "http://www.image-heberg.fr/files/17141378881590258200.png",
 		"pictures":"http://www.image-heberg.fr/files/1713168587344219142.png",
 		"description": "Planifiez le développement du site de votre client",
         "scenario":"Vous êtes développeur front-end au sein de l’agence Webgencia.Votre client Qwenta souhaite faire développer un “Menu Maker” : un site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement, en quelques clics. Soufiane, le Product Owner du projet est en congé maladie. Il vous a chargé, exceptionnellement, de préparer et planifier ce projet. Il prendra le relai pour présenter votre travail au client.",
@@ -52,7 +52,7 @@
     {
 		"id": "4",
 		"title": "Nina Carducci",
-		"cover": "http://www.image-heberg.fr/files/17125848042194096475.png",
+		"cover": "http://www.image-heberg.fr/files/1714138095217647361.png",
 		"pictures": "http://www.image-heberg.fr/files/1713168676941847025.png",
 		"description": "Débuggez et optimisez un site de photographe",
         "scenario":"Vous êtes développeur freelance et vous décidez de proposer vos services d’optimisation SEO à de nouveaux clients. Parmi vos prospects, il y a le site de Nina Carducci, une photographe dont vous a parlé l’un de vos amis.",
