@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from '../../Layout/Header/Header'
 import Accueil from '../../Pages/Accueil/Accueil'
 import Abouts from '../../Pages/About/About'
@@ -7,12 +7,25 @@ import Footer from '../../Layout/Footer/Footer'
 import Project from '../../Pages/Project/Project'
 import Work from '../../Pages/Work/Work'
 import Error from '../../Pages/Error/Error'
-import { HashRouter as Router, Routes, Route } from 'react-router-dom'
+import {
+    HashRouter as Router,
+    Routes,
+    Route,
+    useLocation,
+} from 'react-router-dom'
 
+function ScrollToTop() {
+    const chemin = useLocation()
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [chemin])
+    return null
+}
 function MyRouter() {
     return (
         <React.StrictMode>
             <Router>
+                <ScrollToTop />
                 <Header />
                 <Routes>
                     <Route path="/" element={<Accueil />} />

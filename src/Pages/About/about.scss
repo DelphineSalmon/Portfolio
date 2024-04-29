@@ -9,30 +9,31 @@
 }
 .imgpresentation {
     display: flex;
+    width: 100%;
+    @include media-max(1120px) {
+        flex-wrap: wrap;
+    }
+
     @include media-max(425px) {
         display: flex;
         flex-direction: column;
     }
 }
 .profil {
-    width: 25%;
+    object-fit: cover;
+    width: 50%;
     border-radius: 50%;
     padding-left: 100px;
-    margin-left: 250px;
-    margin-bottom: 50px;
+    margin: 0 auto;
     padding-top: 20px;
-    @include media-max(1580px) {
-        height: 400px;
-        width: 400px;
-        margin-left: 150px;
-        padding-top: 50px;
+    @include media-max(1110px) {
+        padding-left: 00px;
     }
-    @include media-max(1024px) {
-        padding-top: 50px;
-        padding-left: 50px;
-        margin-left: 10px;
-        height: 400px;
-        width: 400px;
+    @include media-max(599px) {
+        margin: 0 auto;
+        width: 50%;
+        padding-left: 5px;
+        padding-top: 30px;
     }
     @include media-max(425px) {
         height: 350px;
@@ -54,9 +55,15 @@
     flex-direction: column;
     align-items: flex-start;
     margin-top: 35px;
-    @include media-max(1024px) {
-        padding-left: 80px;
+    @include media-max(1110px) {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
     }
+    @include media-max(599px) {
+        padding-left: 140px;
+    }
+
     @include media-max(425px) {
         margin-top: 10px;
         padding-left: 45px;
@@ -76,9 +83,6 @@
 .deco {
     width: 24%;
     border: 2px solid $rose;
-    @include media-max(1024px) {
-        width: 60%;
-    }
 }
 .presentation {
     font-family: $police;
@@ -86,7 +90,7 @@
     width: 50%;
     margin-bottom: 25px;
     line-height: 150%;
-    @include media-max(1024px) {
+    @include media-max(599px) {
         width: 80%;
     }
 }
@@ -127,14 +131,6 @@
 .signature {
     margin-top: 20px;
     width: 10%;
-    @include media-max(1580px) {
-        width: 20%;
-        padding-bottom: 45px;
-    }
-    @include media-max(1024px) {
-        width: 20%;
-        padding-bottom: 35px;
-    }
 }
 .competences {
     width: 100%;

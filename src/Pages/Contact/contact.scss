@@ -16,6 +16,9 @@
     font-family: $police;
     color: $title-color;
     font-size: 50px;
+    @include media-max(599px) {
+        font-size: 40px;
+    }
 }
 .decocontact {
     width: 24%;
