@@ -54,6 +54,10 @@
     justify-content: space-between;
     margin-top: 215px;
     width: 65%;
+    @include media-max(1580px) {
+        margin-top: 225px;
+        width: 75%;
+    }
     @include media-max(1024px) {
         margin-top: 175px;
         width: 85%;
@@ -61,5 +65,10 @@
     @include media-max(425px) {
         margin-top: 85px;
         width: 95%;
+    }
+
+    @include media-max(400px) {
+        margin-top: 30px;
+        width: 80%;
     }
 }

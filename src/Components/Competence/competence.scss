@@ -1,4 +1,5 @@
 @import '../../Scss/utils/variable';
+@import '../../Scss/utils/mixin';
 
 .competence {
     background-color: $color-beige;
@@ -15,7 +16,11 @@
     font-size: 50px;
     text-align: center;
     padding-top: 30px;
+    @include media-max(400px) {
+        font-size: 38px;
+    }
 }
+
 .decocompetence {
     border: 2px solid $rose;
     width: 30%;

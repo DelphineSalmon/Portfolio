@@ -21,6 +21,12 @@
     margin-left: 250px;
     margin-bottom: 50px;
     padding-top: 20px;
+    @include media-max(1580px) {
+        height: 400px;
+        width: 400px;
+        margin-left: 150px;
+        padding-top: 50px;
+    }
     @include media-max(1024px) {
         padding-top: 50px;
         padding-left: 50px;
@@ -34,6 +40,11 @@
         padding-left: 0px;
         margin-left: 10px;
         margin-bottom: 25px;
+    }
+    @include media-max(400px) {
+        height: 250px;
+        width: 250px;
+        margin-left: 45px;
     }
 }
 
@@ -51,10 +62,15 @@
         padding-left: 45px;
     }
 }
+
 .title {
     font-family: $police;
+    color: $title-color;
     @include media-max(425px) {
         margin-top: 10px;
+    }
+    @include media-max(400px) {
+        font-size: 30px;
     }
 }
 .deco {
@@ -111,6 +127,10 @@
 .signature {
     margin-top: 20px;
     width: 10%;
+    @include media-max(1580px) {
+        width: 20%;
+        padding-bottom: 45px;
+    }
     @include media-max(1024px) {
         width: 20%;
         padding-bottom: 35px;

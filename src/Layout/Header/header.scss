@@ -6,16 +6,23 @@
     justify-content: center;
     @include media-max(1024px) {
         height: 85px;
-    }
+    } /*
     @include media-max(425px) {
         overflow-x: hidden;
+    } */
+    @include media-max(767px) {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
     }
 }
 .navlogo {
     width: 25%;
-    padding-left: 50px;
-    padding-right: 5%;
-    @include media-max(425px) {
+    padding-left: 25px;
+    padding-right: 25px;
+    @include media-max(767px) {
         width: 30%;
         height: 60px;
         padding-top: 10px;
@@ -34,7 +41,11 @@
     padding-right: 30px;
     display: flex;
     align-items: center;
-    @include media-max(425px) {
+    text-align: center;
+    @include media-max(859px) {
+        font-size: 18px;
+    }
+    @include media-max(767px) {
         padding-left: 10px;
         padding-right: 10px;
         font-size: 15px;

@@ -4,7 +4,7 @@
 .project {
     background-color: $color-beige-clair;
     height: 800px;
-    @include media-max(425px) {
+    @include media-max(599px) {
         height: 1300px;
         overflow-x: hidden;
     }
@@ -22,54 +22,39 @@
         text-align: center;
     }
 }
-.deco-projet {
-    @include media-max(425px) {
-        margin-left: 100px;
-        width: 50%;
-    }
-}
 
 .img-work {
-    width: 40%;
+    width: 35%;
+    height: 25vw;
     border-radius: 40px;
     filter: drop-shadow(0px 3px 10px #d4acad);
-    margin-left: 200px;
-    margin-top: 60px;
-    margin-bottom: 40px;
-    @include media-max(1024px) {
-        margin-top: 150px;
-        margin-left: 50px;
-        width: 40%;
-        height: 300px;
-    }
-    @include media-max(425px) {
-        width: 90%;
-        height: 250px;
-        margin-left: 20px;
-        margin-top: 50px;
-        margin-bottom: 50px;
+    margin: 1% auto;
+
+    @include media-max(599px) {
+        width: 80%;
+        height: 50vw;
+        margin: 0 auto;
     }
 }
 .containerwork {
     display: flex;
+    align-items: center;
     font-family: $police;
     color: $gris-clair;
     font-size: 15px;
-    @include media-max(425px) {
+    width: 100%;
+    @include media-max(599px) {
         display: flex;
         flex-direction: column;
+        padding-top: 40px;
     }
 }
 .containerdescription {
     padding-top: 50px;
-    width: 35%;
-    padding-left: 100px;
-    @include media-max(1024px) {
-        padding-top: 35px;
-        padding-left: 30px;
-        width: 50%;
-    }
-    @include media-max(425px) {
+    width: 40%;
+    padding-right: 20px;
+
+    @include media-max(599px) {
         width: 85%;
         margin-left: 10px;
         padding-left: 10px;
@@ -81,6 +66,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    @include media-max(400px) {
+        align-items: start;
+    }
 }
 .tags {
     font-family: $police;
@@ -90,8 +78,11 @@
     grid-template-rows: auto auto;
     grid-auto-flow: column;
     gap: 5px 30px;
-    @include media-max(425px) {
+    @include media-max(599px) {
         padding-bottom: 40px;
+    }
+    @include media-max(400px) {
+        grid-auto-flow: row;
     }
 }
 .tagsvalue {
@@ -109,14 +100,6 @@
     padding-left: 10px;
     padding-bottom: 4px;
     padding-right: 10px;
-    @include media-max(1024px) {
-        font-size: 16px;
-        padding-top: 6px;
-        padding-left: 8px;
-        padding-right: 8px;
-        padding-bottom: 8px;
-        margin-bottom: 6px;
-    }
 }
 .worklinkgit {
     display: flex;
@@ -136,7 +119,6 @@
     font-family: $police;
     color: $rose;
     font-size: 20px;
-    padding-right: 30px;
     @include media-max(1024px) {
         font-size: 16px;
         padding-right: 10px;
@@ -162,7 +144,7 @@
     @include media-max(1024px) {
         padding-left: 160px;
     }
-    @include media-max(425px) {
+    @include media-max(599px) {
         padding-left: 100px;
         padding-bottom: 40px;
     }
@@ -173,8 +155,11 @@
 .trellolink {
     color: $rose;
     padding-left: 40px;
-    @include media-max(425px) {
+    @include media-max(599px) {
         padding-left: 0px;
+    }
+    @include media-max(400px) {
+        padding-left: 40px;
     }
 }
 .trellolink:hover {
